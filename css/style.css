@@ -1,11 +1,10 @@
-/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BODY */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f6f8;
@@ -13,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* NAVBAR */
+
 nav {
     background-color: #222;
     display: flex;
@@ -29,18 +28,17 @@ nav a {
     transition: background 0.3s, transform 0.2s;
 }
 
-/* Hover effect (full tab) */
 nav a:hover {
     background-color: #00adb5;
 }
 
-/* Active page */
+
 nav a.active {
     background-color: #00adb5;
     font-weight: bold;
 }
 
-/* HEADER */
+
 header {
     padding: 25px;
     background-color: #00adb5;
@@ -48,7 +46,7 @@ header {
     text-align: center;
 }
 
-/* MAIN CARD (one per page) */
+
 main {
     width: 85%;
     max-width: 900px;
@@ -59,7 +57,7 @@ main {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* HEADINGS */
+
 main h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -70,18 +68,18 @@ main h2 {
     color: #00adb5;
 }
 
-/* TEXT */
+
 main p {
     margin-bottom: 10px;
     text-align: left;
 }
 
-/* LISTS */
+
 main ul {
     margin: 10px 0 10px 20px;
 }
 
-/* IMAGES */
+
 main img {
     display: block;
     margin: 20px auto;
@@ -89,7 +87,7 @@ main img {
     max-width: 100%;
 }
 
-/* LINKS */
+
 a {
     color: #00adb5;
 }
